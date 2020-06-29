@@ -1,9 +1,10 @@
 import React from 'react';
-const Song = ({ lyrics }) => {
+const Song = ({ lyrics, searchLyrics }) => {
   if (lyrics.length === 0) return null;
+  const { song } = searchLyrics;
   return (
     <>
-      <h2>Song's lyrics</h2>
+      <h2>{song} ♫</h2>
       <p className='letra'>{lyrics}</p>
     </>
   );
