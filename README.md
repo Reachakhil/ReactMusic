@@ -23,7 +23,7 @@ npm install
 ## Run ⚙️
 
 ```bash
-npm run start
+npm start
 ```
 
 ## Built with 🛠️
